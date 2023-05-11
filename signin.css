@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Netflix Font', sans-serif;
+    color: white;
+
+}
+
+.mainbg{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('./media/background.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 10vh;
+}
+
+.logo{
+    position: relative;
+    top: 2vh;
+    left: 2vw;
+    fill: red;
+    width: 12vw;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blackcontainer{
+    height: 85vh;
+    width: 30vw;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: left;
+}
+
+.insider{
+    position: relative;
+    left: 4vw;
+    top: 5vh;
+}
+
+input{
+    width: 70%;
+    height: 6vh;
+    background-color: rgb(51,51,51);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding-left: 10px;
+    font-size: 1rem;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    height: 14vh;
+    justify-content: space-between;
+}
+
+.btn{
+    position: relative;
+    top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    box-sizing: border-box;
+    width: 73%; 
+    background-color: red;
+    border-radius: 5px;
+}
+
+a{
+    color: white;
+    font-size: 1.2rem ;
+    text-decoration: none;
+}
+
+
+.check-help{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 73%;
+    position: relative;
+    top: 6vh;
+}
+
+.check{
+    display: flex;
+    align-items: center;
+    color: grey;
+}
+
+.chkbtn{
+    height: 15px;
+    width: 15px;
+    background-color: grey;
+    border: none;
+}
+
+#a2{
+    font-size: 0.8rem;
+}
+
+.last{
+    position: relative;
+    top: 15vh;
+}
+
+#a3{
+    font-size: 1em;
+}
+
+p{
+    color: grey;
+}
+
+#a4{
+    color: rgb(4,69,133);
+    font-size: 1em;
+}
+
+#a4:hover{
+    text-decoration: underline  ;
+}

@@ -1,0 +1,29 @@
+footer{
+    position: relative;
+    top: 30vh;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content{
+    width: 80%;
+}
+
+span{
+    text-decoration: underline;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 5vh 5vh 5vh 5vh;
+    list-style: none;
+    text-decoration: underline;
+}
+
+.lang2{
+    width: fit-content;
+}

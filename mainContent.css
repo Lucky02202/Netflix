@@ -1,0 +1,177 @@
+/* MAIN CONTAINER */
+.maincontainer {
+    display: flex;
+    /* border: 2px solid white; */
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+/* FIRST CONTAINER STARTS */
+/* NETFLIX TEXT , EMAIL AND GET STARTED BUTTON */
+.first {
+    display: flex;
+    align-items: center;
+    width: 94vw;
+    height: 78vh;
+    border-radius: 20px;
+    background-image: radial-gradient(93.75% 105.88% at 0.39% 99.26%, rgba(150, 1, 7, 0.4) 1.42%, rgba(30, 1, 66, 0.51) 53.8%, rgba(13, 14, 32, 0) 100%), linear-gradient(98.24deg, #1D0005 14.75%, rgba(0, 8, 29, 0.48) 100%), url('./media/background.jpg');
+    background-size: cover;
+}
+
+
+.heading {
+    font-weight: 800;
+    font-size: 4rem;
+    line-height: 8vh;
+    letter-spacing: -3px;
+}
+
+.topcontent {
+    color: white;
+    font-family: 'Netflix Font', sans-serif;
+    text-align: left;
+    font-size: 1.2rem;
+    padding: 5vh 7vw;
+    box-sizing: border-box;
+
+}
+
+p {
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: 100;
+}
+
+.email-btn {
+    display: flex;
+    align-items: center;
+    width: 34vw;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+
+#email1 {
+    padding: 15px;
+    font-size: 1rem;
+    background-color: rgb(15,17,24);
+    color: white;
+    width: 22vw;
+    border-radius: 2px;
+    border: 1px solid grey;
+    flex-shrink: 1;
+}
+
+.getstarted {
+    background-color: red;
+    padding: 14px 12px;
+    border-radius: 4px;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+#a2 {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+/* FIRST CONTAINER ENDS */
+
+
+/* 2-5 CONTAINER STARTS */
+
+.second{
+    position: relative;
+    top: 5vh;
+    width: 100%;
+}
+
+.sub{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+.text{
+    color: white;
+}
+
+.text1{
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 8vh;
+    letter-spacing: -3px;
+}
+
+#p1{
+    font-size: 1.2rem;
+}
+/* .disp1{
+    width: 100%;w
+    height: 100%;
+} */
+
+/* .disp1{
+    background-image: radial-gradient(rgba(117, 69, 117,0.6)20%,rgba(98, 57, 98,0.4)30%,rgba(45, 38, 45,0)20%);   
+} */
+
+/* 2-5 CONTAINER ENDS */
+
+/* SIXTH CONTAINER STARTS */
+
+    .sixth{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        top: 10vh;
+    }
+
+    .sixthsub{
+        width: 80%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100vh;
+    }
+
+    .faq{
+        width: 100%;
+        height: 12vh;
+        background-color: rgb(19,33,68);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.8rem;
+    }
+
+    .faq:hover{
+        background-color: rgb(32, 55, 114);
+    }
+
+    .question{
+        position: relative;
+        left: 2vw;
+    }
+
+    .plus{
+        position: relative;
+        right: 2vw;
+    }
+
+    .last{
+        position: relative;
+        top: 4vh;
+        font-size: 1.2rem;
+        /* line-height: 40px; */
+    }
+
+/* SIXTH CONTAINER ENDS */
+
+

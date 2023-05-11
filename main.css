@@ -1,0 +1,17 @@
+@import url(header.css);
+@import url(mainContent.css);
+@import url(footer.css);
+@import url(mediaqueries.css);
+
+body{
+    background-color: rgb(0,8,29);
+    font-family: 'Netflix Font', sans-serif;
+    color: white;    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+

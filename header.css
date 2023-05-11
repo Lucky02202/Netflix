@@ -1,0 +1,71 @@
+.header {
+    height: 10vh;
+    width: 100%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* LOGO */
+.logo {
+    fill: red;
+    /* height: 10vh; */
+    min-width: 150px;
+    box-sizing: border-box;
+    margin-left: 2vw;
+}
+
+
+/* Last two elements in header */
+.drop-btn {
+    display: flex;
+    width: 240px;
+    justify-content: space-evenly;
+    margin-right: 2vw;
+}
+
+select {
+    border: none;
+    background-color: rgb(15, 17, 24);
+    color: white;
+}
+
+/* DROPDOWN */
+.lang {
+    background-color: rgb(15, 17, 24);
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+
+
+}
+
+/* Sign in Button */
+.signin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: red;
+    border-radius: 5px;
+    padding: 0px 10px;
+    font-family: 'Netflix Font', sans-serif;
+    font-weight: bold;
+
+}
+
+
+#a1 {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* FONT */
+.lang,
+select,
+a {
+    font-size: 1.1rem;
+}
