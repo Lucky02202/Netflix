@@ -76,7 +76,7 @@ input{
     box-sizing: border-box;
     width: 73%; 
     background-color: red;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 a{
